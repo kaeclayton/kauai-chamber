@@ -78,4 +78,7 @@
     #places div img {
         width: 300px;
     }
+    body.no-hero main {
+        padding-top: 6rem;
+    }
 }    
