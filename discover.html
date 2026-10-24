@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaua'i Chamber of Commerce - Home Page</title>
+    <meta name="author" content="Kae Clayton">
+    <meta name="description" content="Discover page of the Kaua'i Chamber of Commerce">
+    <meta property="og:title" content="Kauau'i Chamber of Commerce - Home">
+    <meta property="og:description"
+        content="The discover page for the Kaua'i Chamber of Commerce.">
+    <meta property="og:image" content="https://kaeclayton.github.io/wdd231/chamber/images/kauai-hero-1200w.webp">
+    <meta property="og:url" content="https://kaeclayton.github.io/wdd231/chamber/home.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon-kauai.ico">
+    <link rel="preload" href="images/kauai-hero-800w.webp" as="image" media="(min-width: 800px)">
+    <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/favicon-kauai.ico" alt="Icon representing the island of Kaua'i">
+        <span>Kaua'i Chamber of Commerce</span>
+        <button id="ham-button" class="hamburger" aria-label="Toggle navigation menu"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="https://kaeclayton.github.io/wdd231/chamber/index.html">Home</a></li>
+            <li><a href="https://kaeclayton.github.io/wdd231/chamber/directory.html">Directory</a></li>
+            <li><a href="https://kaeclayton.github.io/wdd231/chamber/join.html">Join</a></li>
+            <li class="current"><a href="https://kaeclayton.github.io/wdd231/chamber/discover.html">Discover</a></li>
+        </ul>
+    </nav>
+    <section>
+        <picture>
+            <source media="(max-width: 400px)" srcset="images/kauai-hero-400w.webp" width="400" height="200">
+            <source media="(max-width: 800px)" srcset="images/kauai-hero-800w.webp" width="800" height="400">
+            <source media="(max-width: 1200px)" srcset="images/kauai-hero-1200w.webp" width="1200" height="600">
+            <img src="images/kauai-hero-800w.webp" alt="Kaua'i shoreline" class="hero" width="800" height="400"
+                loading="eager" fetchpriority="high">
+        </picture>
+        <div id="visit-message" class="message-overlay"></div>
+    </section>
+    <main>
+        <h1>Discover Kauai</h1>
+        <div id="places"></div>
+    </main>
+    <footer>
+        <div class="chamber">
+            <p>Kaua'i Chamber of Commerce</p>
+            <p>street address here</p>
+            <p>remainder of address</p>
+            <p>email here</p>
+            <p>phone number here</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.svg" alt="facebook" width="32"
+                    height="32"></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="Linked In" width="32"
+                    height="32"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.svg" alt="Instagram"
+                    width="32" height="32"></a>
+        </div>
+        <div class="foot">
+            <p>WDD231 Class Project</p>
+            <p>Kae Clayton</p>
+            <p><span id="currentYear"></span> Kaua'i Chamber of Commerce</p>
+            <p id="lastModified">Last Modified:</p>
+        </div>
+    </footer>
+</body>
+
+</html>

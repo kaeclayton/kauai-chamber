@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaua'i Chamber of Commerce - Home Page</title>
+    <meta name="author" content="Kae Clayton">
+    <meta name="description" content="Join page of the Kaua'i Chamber of Commerce">
+    <meta property="og:title" content="Kauau'i Chamber of Commerce - Home">
+    <meta property="og:description"
+        content="The join page for the Kaua'i Chamber of Commerce.">
+    <meta property="og:image" content="https://kaeclayton.github.io/wdd231/chamber/images/kauai-hero-1200w.webp">
+    <meta property="og:url" content="https://kaeclayton.github.io/wdd231/chamber/home.html">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="icon" href="images/favicon-kauai.ico">
+    <script type="module" src="scripts/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <img src="images/favicon-kauai.ico" alt="Icon representing the island of Kaua'i">
+        <span>Kaua'i Chamber of Commerce</span>
+        <button id="ham-button" class="hamburger" aria-label="Toggle navigation menu"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li><a href="https://kaeclayton.github.io/wdd231/chamber/index.html">Home</a></li>
+            <li><a href="https://kaeclayton.github.io/wdd231/chamber/directory.html">Directory</a></li>
+            <li class="current"><a href="https://kaeclayton.github.io/wdd231/chamber/join.html">Join</a></li>
+            <li><a href="https://kaeclayton.github.io/wdd231/chamber/discover.html">Discover</a></li>
+        </ul>
+    </nav>
+    <section>
+        <picture>
+            <source media="(max-width: 400px)" srcset="images/kauai-hero-400w.webp" width="400" height="200">
+            <source media="(max-width: 800px)" srcset="images/kauai-hero-800w.webp" width="800" height="400">
+            <source media="(max-width: 1200px)" srcset="images/kauai-hero-1200w.webp" width="1200" height="600">
+            <img src="images/kauai-hero-800w.webp" alt="Kaua'i shoreline" class="hero" width="800" height="400" loading="eager" fetchpriority="high">
+        </picture>
+    </section>
+    <main class="join-page">
+        <form method="get" action="thankyou.html" class="join-form">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fname">First Name:  *</label>
+                <input type="text" id="fname" name="fname" autocomplete="given-name" title="Please enter your first name" required>
+                <label for="lname">Last Name:  *</label>
+                <input type="text" id="lname" name="lname" autocomplete="family-name" title="Please enter your last name" required>
+                <label for="email">Email:  *</label>
+                <input type="email" id="email" name="email" autocomplete="email" title="Please enter your email" placeholder="johndoe@gmail.com" required>
+                <label for="phone">Cell Phone:  *</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" title="Please enter your 10-digit phone number" placeholder="789-555-1234" required>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label for="busname">Business Name:  *</label>
+                <input type="text" id="busname" name="busname" autocomplete="organization" title="Please enter your business'/organization's name" required>
+                <label for="title">Organizational Title:</label>
+                <input type="text" id="title" name="title" autocomplete="organization-title" pattern="[A-Za-z\- ]{7,}" title="Please enter your organizational title (minimum 7 letters, spaces or hyphens)">
+                <label for="description">Business Description:</label>
+                <textarea type="textarea" id="description" name="description" title="Please enter a description of your business/organization" rows="5" placeholder="Describe your business..."></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Membership Level</legend>    
+                <input type="radio" id="np" name="membership" value="np" required>
+                <label for="np">NP Membership (Non-Profit - No Fee)</label><br>
+                <input type="radio" id="bronze" name="membership" value="bronze">
+                <label for="bronze">Bronze Membership</label><br>
+                <input type="radio" id="silver" name="membership" value="silver" required>
+                <label for="silver">Silver Membership</label><br>
+                <input type="radio" id="gold" name="membership" value="gold" required>
+                <label for="gold">Gold Membership</label><br>
+            </fieldset>
+            <input type="hidden" id="timestamp" name="timestamp" value="">
+            <input type="submit" value="Sign up now!">
+        </form>
+        <div>
+            <div class="membership-card">
+                <h3>Non Profit Membership Level</h3>
+                <button class="learn-more" data-modal="np-modal">Learn More</button>
+            </div>
+            <div class="membership-card">
+                <h3>Bronze Membership Level</h3>
+                <button class="learn-more" data-modal="bronze-modal">Learn More</button>
+            </div>
+            <div class="membership-card">
+                <h3>Silver Membership Level</h3>
+                <button class="learn-more" data-modal="silver-modal">Learn More</button>
+            </div>
+            <div class="membership-card">
+                <h3>Gold Membership Level</h3>
+                <button class="learn-more" data-modal="gold-modal">Learn More</button>
+            </div>
+            <dialog id="np-modal">
+                <h2>Non Profit Membership Benefits</h2>
+                <ul>
+                    <li>30 Complimentary Networking Passes</li>
+                    <li>Named in Newsletter</li>
+                    <li>Bi-annual Trainings</li>
+                </ul>
+                <p><strong>Cost: Free</strong></p>
+                <button class="close-modal" id="close-np">Close</button>
+            </dialog>
+            <dialog id="bronze-modal">
+                <h2>Bronze Membership Benefits</h2>
+                <ul>
+                    <li>60 Complimentary Networking Passes</li>
+                    <li>Named in Newsletter</li>
+                    <li>Quarterly Trainings</li>
+                    <li>Social Media Promotions</li>
+                </ul>
+                <p><strong>Cost: $199/year</strong></p>
+                <button class="close-modal" id="close-bronze">Close</button>
+            </dialog>
+            <dialog id="silver-modal">
+                <h2>Silver Membership Benefits</h2>
+                <ul>
+                    <li>All Bronze benefits</li>
+                    <li>Featured Article in Newsletter</li>
+                    <li>Special Event Discounts</li>
+                    <li>Occasional Spotlight on Home Page</li>
+                </ul>
+                <p><strong>Cost: $299/year</strong></p>
+                <button class="close-modal" id="close-silver">Close</button>
+            </dialog>
+            <dialog id="gold-modal">
+                <h2>Gold Membership Benefits</h2>
+                <ul>
+                    <li>All Silver benefits</li>
+                    <li>Monthly Trainings</li>
+                    <li>Complimentary Special Events</li>
+                    <li>Logo on Discover Page</li>
+                </ul>
+                <p><strong>Cost: $399/year</strong></p>
+                <button class="close-modal" id="close-gold">Close</button>
+            </dialog>
+        </div>    
+    </main>
+    <footer>
+        <div class="chamber">
+            <p>Kaua'i Chamber of Commerce</p>
+            <p>street address here</p>
+            <p>remainder of address</p>
+            <p>email here</p>
+            <p>phone number here</p>
+        </div>
+        <div class="social">
+            <a href="https://www.facebook.com" target="_blank"><img src="images/facebook.svg" alt="facebook" width="32"
+                    height="32"></a>
+            <a href="https://www.linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="Linked In" width="32"
+                    height="32"></a>
+            <a href="https://www.instagram.com" target="_blank"><img src="images/instagram.svg" alt="Instagram"
+                    width="32" height="32"></a>
+        </div>
+        <div class="foot">
+            <p>WDD231 Class Project</p>
+            <p>Kae Clayton</p>
+            <p><span id="currentYear"></span> Kaua'i Chamber of Commerce</p>
+            <p id="lastModified">Last Modified:</p>
+        </div>
+    </footer>
+</body>
+
+</html>
