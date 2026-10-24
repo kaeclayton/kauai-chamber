@@ -455,3 +455,7 @@ footer {
 .social img {
     width: 16px;
 }
+/* Pages without a hero image */
+body.no-hero main {
+    padding-top: 4rem;
+}
