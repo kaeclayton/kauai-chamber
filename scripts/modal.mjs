@@ -5,7 +5,6 @@ export function initModals() {
     const goldModal = document.querySelector('#gold-modal');
 
     if (!npModal && !bronzeModal && !silverModal && !goldModal) {
-        console.log('No modals found on this page - skipping modal initialization');
         return;
     }
 

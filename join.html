@@ -4,14 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kaua'i Chamber of Commerce - Home Page</title>
+    <title>Kaua'i Chamber of Commerce - Join Us</title>
     <meta name="author" content="Kae Clayton">
     <meta name="description" content="Join page of the Kaua'i Chamber of Commerce">
-    <meta property="og:title" content="Kauau'i Chamber of Commerce - Home">
-    <meta property="og:description"
-        content="The join page for the Kaua'i Chamber of Commerce.">
-    <meta property="og:image" content="https://kaeclayton.github.io/wdd231/chamber/images/kauai-hero-1200w.webp">
-    <meta property="og:url" content="https://kaeclayton.github.io/wdd231/chamber/home.html">
+    <meta property="og:title" content="Kaua'i Chamber of Commerce - Home">
+    <meta property="og:description" content="The join page for the Kaua'i Chamber of Commerce.">
+    <meta property="og:image" content="https://kaeclayton.github.io/kauai-chamber/images/kauai-hero-1200w.webp">
+    <meta property="og:url" content="https://kaeclayton.github.io/kauai-chamber/join.html">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -27,10 +26,10 @@
     </header>
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li><a href="https://kaeclayton.github.io/wdd231/chamber/index.html">Home</a></li>
-            <li><a href="https://kaeclayton.github.io/wdd231/chamber/directory.html">Directory</a></li>
-            <li class="current"><a href="https://kaeclayton.github.io/wdd231/chamber/join.html">Join</a></li>
-            <li><a href="https://kaeclayton.github.io/wdd231/chamber/discover.html">Discover</a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li class="current"><a href="join.html">Join</a></li>
+            <li><a href="discover.html">Discover</a></li>
         </ul>
     </nav>
     <section>
@@ -38,33 +37,42 @@
             <source media="(max-width: 400px)" srcset="images/kauai-hero-400w.webp" width="400" height="200">
             <source media="(max-width: 800px)" srcset="images/kauai-hero-800w.webp" width="800" height="400">
             <source media="(max-width: 1200px)" srcset="images/kauai-hero-1200w.webp" width="1200" height="600">
-            <img src="images/kauai-hero-800w.webp" alt="Kaua'i shoreline" class="hero" width="800" height="400" loading="eager" fetchpriority="high">
+            <img src="images/kauai-hero-800w.webp" alt="Kaua'i shoreline" class="hero" width="800" height="400"
+                loading="eager" fetchpriority="high">
         </picture>
     </section>
     <main class="join-page">
         <form method="get" action="thankyou.html" class="join-form">
             <fieldset>
                 <legend>Personal Information</legend>
-                <label for="fname">First Name:  *</label>
-                <input type="text" id="fname" name="fname" autocomplete="given-name" title="Please enter your first name" required>
-                <label for="lname">Last Name:  *</label>
-                <input type="text" id="lname" name="lname" autocomplete="family-name" title="Please enter your last name" required>
-                <label for="email">Email:  *</label>
-                <input type="email" id="email" name="email" autocomplete="email" title="Please enter your email" placeholder="johndoe@gmail.com" required>
-                <label for="phone">Cell Phone:  *</label>
-                <input type="tel" id="phone" name="phone" autocomplete="tel" title="Please enter your 10-digit phone number" placeholder="789-555-1234" required>
+                <label for="fname">First Name: *</label>
+                <input type="text" id="fname" name="fname" autocomplete="given-name"
+                    title="Please enter your first name" required>
+                <label for="lname">Last Name: *</label>
+                <input type="text" id="lname" name="lname" autocomplete="family-name"
+                    title="Please enter your last name" required>
+                <label for="email">Email: *</label>
+                <input type="email" id="email" name="email" autocomplete="email" title="Please enter your email"
+                    placeholder="johndoe@gmail.com" required>
+                <label for="phone">Cell Phone: *</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel"
+                    title="Please enter your 10-digit phone number" placeholder="789-555-1234" required>
             </fieldset>
             <fieldset>
                 <legend>Business Information</legend>
-                <label for="busname">Business Name:  *</label>
-                <input type="text" id="busname" name="busname" autocomplete="organization" title="Please enter your business'/organization's name" required>
+                <label for="busname">Business Name: *</label>
+                <input type="text" id="busname" name="busname" autocomplete="organization"
+                    title="Please enter your business'/organization's name" required>
                 <label for="title">Organizational Title:</label>
-                <input type="text" id="title" name="title" autocomplete="organization-title" pattern="[A-Za-z\- ]{7,}" title="Please enter your organizational title (minimum 7 letters, spaces or hyphens)">
+                <input type="text" id="title" name="title" autocomplete="organization-title" pattern="[A-Za-z\- ]{7,}"
+                    title="Please enter your organizational title (minimum 7 letters, spaces or hyphens)">
                 <label for="description">Business Description:</label>
-                <textarea type="textarea" id="description" name="description" title="Please enter a description of your business/organization" rows="5" placeholder="Describe your business..."></textarea>
+                <textarea type="textarea" id="description" name="description"
+                    title="Please enter a description of your business/organization" rows="5"
+                    placeholder="Describe your business..."></textarea>
             </fieldset>
             <fieldset>
-                <legend>Membership Level</legend>    
+                <legend>Membership Level</legend>
                 <input type="radio" id="np" name="membership" value="np" required>
                 <label for="np">NP Membership (Non-Profit - No Fee)</label><br>
                 <input type="radio" id="bronze" name="membership" value="bronze">
@@ -137,7 +145,7 @@
                 <p><strong>Cost: $399/year</strong></p>
                 <button class="close-modal" id="close-gold">Close</button>
             </dialog>
-        </div>    
+        </div>
     </main>
     <footer>
         <div class="chamber">

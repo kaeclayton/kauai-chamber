@@ -12,7 +12,6 @@ function getCurrentPage() {
 
 document.addEventListener('DOMContentLoaded', () => {
     const page = getCurrentPage();
-    console.log(`Initializing ${page} page`);
 
     // Always initialize these
     initNavigation();
@@ -60,10 +59,4 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (userData) module.initThankYou();
             });
     }
-});
-
-window.addEventListener('load', () => {
-    const perfData = window.performance.timing;
-    const loadTime = perfData.loadEventEnd - perfData.navigationStart;
-    console.log('Page load time:', loadTime + 'ms');
 });
