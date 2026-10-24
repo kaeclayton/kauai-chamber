@@ -26,7 +26,7 @@
             "websiteUrl": "https://lydgatefarms.com/",
             "email": "info@lydgatefarms.com",
             "imageFile": "images/lydgate-farms-logo.webp",
-            "membershipLevel": "Member",
+            "membershipLevel": "Bronze",
             "businessType": "Agriculture"
         },
         {
@@ -71,7 +71,7 @@
             "websiteUrl": "https://getfitkauai.com/",
             "email": "info@getfitkauai.com",
             "imageFile": "images/get-fit-kauai-logo.webp",
-            "membershipLevel": "Member",
+            "membershipLevel": "Bronze",
             "businessType": "Health & Fitness"
         },
         {
@@ -116,7 +116,7 @@
             "websiteUrl": "https://basketboutiquekauai.com/",
             "email": "info@basketboutiquekauai.com",
             "imageFile": "images/basket-boutique-logo.webp",
-            "membershipLevel": "Member",
+            "membershipLevel": "Bronze",
             "businessType": "Retail"
         },
         {
