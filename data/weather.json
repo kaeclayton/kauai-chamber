@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T02:25:34.647Z",
+  "updated": "2026-10-25T02:47:27.914Z",
   "current": {
     "coord": {
       "lon": -159.492,
@@ -7,36 +7,33 @@
     },
     "weather": [
       {
-        "id": 500,
-        "main": "Rain",
-        "description": "light rain",
-        "icon": "10d"
+        "id": 804,
+        "main": "Clouds",
+        "description": "overcast clouds",
+        "icon": "04d"
       }
     ],
     "base": "stations",
     "main": {
       "temp": 67.06,
-      "feels_like": 67.28,
+      "feels_like": 67.19,
       "temp_min": 67.06,
       "temp_max": 67.06,
       "pressure": 1016,
-      "humidity": 81,
+      "humidity": 79,
       "sea_level": 1016,
       "grnd_level": 900
     },
     "visibility": 10000,
     "wind": {
-      "speed": 10.94,
-      "deg": 27,
-      "gust": 11.9
-    },
-    "rain": {
-      "1h": 0.13
+      "speed": 9.82,
+      "deg": 29,
+      "gust": 10.76
     },
     "clouds": {
       "all": 100
     },
-    "dt": 1792895134,
+    "dt": 1792896447,
     "sys": {
       "type": 1,
       "id": 7873,
