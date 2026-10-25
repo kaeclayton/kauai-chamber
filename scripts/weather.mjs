@@ -1,33 +1,18 @@
-const myKey = "f4dd775bce0fbd91774237822dda220d";
-const latitude = 22.087;
-const longitude = -159.492;
-const units = 'imperial';
-
 export async function initWeather() {
     try {
-        const currentWeather = await getCurrentWeather();
-        const forecast = await getForecastHighs();
+        const response = await fetch('data/weather.json');
+        if (!response.ok) throw new Error('Weather data not available');
+        const weather = await response.json();
 
-        displayCurrentWeather(currentWeather);
-        displayForecast(forecast);
+        displayCurrentWeather(weather.current);
+        displayForecast(getForecastHighs(weather.forecast));
     } catch (error) {
         console.error('Error loading weather:', error);
         displayWeatherError();
     }
 }
 
-async function getCurrentWeather() {
-    const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&units=${units}&appid=${myKey}`);
-    if (!response.ok) throw new Error('Weather data not available');
-    return await response.json();
-}
-
-async function getForecastHighs() {
-    // Use forecast endpoint, not weather endpoint
-    const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&units=${units}&appid=${myKey}`);
-    if (!response.ok) throw new Error('Forecast data not available');
-    const data = await response.json();
-
+function getForecastHighs(data) {
     const dailyHighs = {};
     data.list.forEach(item => {
         const date = new Date(item.dt * 1000).toDateString();
