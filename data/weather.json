@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T16:26:14.174Z",
+  "updated": "2026-10-31T20:44:31.037Z",
   "current": {
     "coord": {
       "lon": -159.492,
@@ -10,30 +10,30 @@
         "id": 804,
         "main": "Clouds",
         "description": "overcast clouds",
-        "icon": "04n"
+        "icon": "04d"
       }
     ],
     "base": "stations",
     "main": {
-      "temp": 67.06,
-      "feels_like": 67.6,
-      "temp_min": 61.18,
-      "temp_max": 67.06,
-      "pressure": 1013,
-      "humidity": 88,
-      "sea_level": 1013,
-      "grnd_level": 898
+      "temp": 68.86,
+      "feels_like": 69.4,
+      "temp_min": 68.86,
+      "temp_max": 68.86,
+      "pressure": 1015,
+      "humidity": 84,
+      "sea_level": 1015,
+      "grnd_level": 900
     },
     "visibility": 10000,
     "wind": {
-      "speed": 10.42,
-      "deg": 110,
-      "gust": 11.88
+      "speed": 9.86,
+      "deg": 101,
+      "gust": 10.56
     },
     "clouds": {
       "all": 100
     },
-    "dt": 1793463974,
+    "dt": 1793479470,
     "sys": {
       "type": 1,
       "id": 7873,
@@ -52,55 +52,18 @@
     "cnt": 40,
     "list": [
       {
-        "dt": 1793469600,
-        "main": {
-          "temp": 66.29,
-          "feels_like": 66.7,
-          "temp_min": 64.74,
-          "temp_max": 66.29,
-          "pressure": 1014,
-          "sea_level": 1014,
-          "grnd_level": 900,
-          "humidity": 87,
-          "temp_kf": 0.86,
-          "dew_point": 62.31
-        },
-        "weather": [
-          {
-            "id": 804,
-            "main": "Clouds",
-            "description": "overcast clouds",
-            "icon": "04d"
-          }
-        ],
-        "clouds": {
-          "all": 100
-        },
-        "wind": {
-          "speed": 9.75,
-          "deg": 107,
-          "gust": 11.18
-        },
-        "visibility": 10000,
-        "pop": 0.16,
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-10-31 18:00:00"
-      },
-      {
         "dt": 1793480400,
         "main": {
-          "temp": 66.36,
-          "feels_like": 66.6,
-          "temp_min": 66,
-          "temp_max": 66.36,
-          "pressure": 1014,
-          "sea_level": 1014,
+          "temp": 68.86,
+          "feels_like": 69.4,
+          "temp_min": 65.66,
+          "temp_max": 68.86,
+          "pressure": 1015,
+          "sea_level": 1015,
           "grnd_level": 900,
-          "humidity": 83,
-          "temp_kf": 0.2,
-          "dew_point": 61.05
+          "humidity": 84,
+          "temp_kf": 1.78,
+          "dew_point": 63.84
         },
         "weather": [
           {
@@ -114,12 +77,12 @@
           "all": 100
         },
         "wind": {
-          "speed": 9.98,
-          "deg": 103,
-          "gust": 10.54
+          "speed": 9.86,
+          "deg": 101,
+          "gust": 10.56
         },
         "visibility": 10000,
-        "pop": 0.4,
+        "pop": 0.32,
         "rain": {
           "3h": 0.13
         },
@@ -131,16 +94,16 @@
       {
         "dt": 1793491200,
         "main": {
-          "temp": 65.7,
-          "feels_like": 65.82,
-          "temp_min": 65.7,
-          "temp_max": 65.7,
-          "pressure": 1013,
-          "sea_level": 1013,
-          "grnd_level": 899,
-          "humidity": 82,
-          "temp_kf": 0,
-          "dew_point": 66.83
+          "temp": 67.53,
+          "feels_like": 68.04,
+          "temp_min": 64.87,
+          "temp_max": 67.53,
+          "pressure": 1014,
+          "sea_level": 1014,
+          "grnd_level": 898,
+          "humidity": 86,
+          "temp_kf": 1.48,
+          "dew_point": 63.19
         },
         "weather": [
           {
@@ -154,14 +117,14 @@
           "all": 100
         },
         "wind": {
-          "speed": 8.57,
-          "deg": 98,
-          "gust": 8.5
+          "speed": 9.33,
+          "deg": 90,
+          "gust": 10.09
         },
         "visibility": 10000,
-        "pop": 0.24,
+        "pop": 0.56,
         "rain": {
-          "3h": 0.5
+          "3h": 1.06
         },
         "sys": {
           "pod": "d"
@@ -171,16 +134,16 @@
       {
         "dt": 1793502000,
         "main": {
-          "temp": 65.12,
-          "feels_like": 65.28,
-          "temp_min": 65.12,
-          "temp_max": 65.12,
-          "pressure": 1013,
-          "sea_level": 1013,
-          "grnd_level": 899,
-          "humidity": 84,
-          "temp_kf": 0,
-          "dew_point": 67.1
+          "temp": 66.02,
+          "feels_like": 66.45,
+          "temp_min": 64.6,
+          "temp_max": 66.02,
+          "pressure": 1014,
+          "sea_level": 1014,
+          "grnd_level": 898,
+          "humidity": 88,
+          "temp_kf": 0.79,
+          "dew_point": 62.37
         },
         "weather": [
           {
@@ -194,14 +157,14 @@
           "all": 100
         },
         "wind": {
-          "speed": 8.48,
-          "deg": 95,
-          "gust": 8.55
+          "speed": 8.79,
+          "deg": 97,
+          "gust": 9.64
         },
         "visibility": 10000,
-        "pop": 0.32,
+        "pop": 0.56,
         "rain": {
-          "3h": 0.38
+          "3h": 1.06
         },
         "sys": {
           "pod": "d"
@@ -211,16 +174,16 @@
       {
         "dt": 1793512800,
         "main": {
-          "temp": 64.44,
-          "feels_like": 64.67,
-          "temp_min": 64.44,
-          "temp_max": 64.44,
-          "pressure": 1015,
-          "sea_level": 1015,
+          "temp": 64.4,
+          "feels_like": 64.78,
+          "temp_min": 64.4,
+          "temp_max": 64.4,
+          "pressure": 1014,
+          "sea_level": 1014,
           "grnd_level": 900,
-          "humidity": 87,
+          "humidity": 90,
           "temp_kf": 0,
-          "dew_point": 67.28
+          "dew_point": 68.22
         },
         "weather": [
           {
@@ -234,14 +197,14 @@
           "all": 100
         },
         "wind": {
-          "speed": 8.3,
-          "deg": 90,
-          "gust": 8.77
+          "speed": 8.77,
+          "deg": 101,
+          "gust": 9.62
         },
         "visibility": 10000,
-        "pop": 0.24,
+        "pop": 0.6,
         "rain": {
-          "3h": 0.19
+          "3h": 0.81
         },
         "sys": {
           "pod": "n"
@@ -251,16 +214,16 @@
       {
         "dt": 1793523600,
         "main": {
-          "temp": 64.17,
-          "feels_like": 64.36,
-          "temp_min": 64.17,
-          "temp_max": 64.17,
+          "temp": 63.88,
+          "feels_like": 64.24,
+          "temp_min": 63.88,
+          "temp_max": 63.88,
           "pressure": 1015,
           "sea_level": 1015,
           "grnd_level": 900,
-          "humidity": 87,
+          "humidity": 91,
           "temp_kf": 0,
-          "dew_point": 67.06
+          "dew_point": 68.07
         },
         "weather": [
           {
@@ -274,14 +237,14 @@
           "all": 100
         },
         "wind": {
-          "speed": 7.61,
-          "deg": 77,
-          "gust": 8.08
+          "speed": 6.2,
+          "deg": 102,
+          "gust": 7.18
         },
         "visibility": 10000,
-        "pop": 0.4,
+        "pop": 0.92,
         "rain": {
-          "3h": 0.31
+          "3h": 1
         },
         "sys": {
           "pod": "n"
@@ -291,16 +254,16 @@
       {
         "dt": 1793534400,
         "main": {
-          "temp": 64.09,
-          "feels_like": 64.2,
-          "temp_min": 64.09,
-          "temp_max": 64.09,
+          "temp": 63.34,
+          "feels_like": 63.64,
+          "temp_min": 63.34,
+          "temp_max": 63.34,
           "pressure": 1014,
           "sea_level": 1014,
           "grnd_level": 899,
-          "humidity": 85,
+          "humidity": 91,
           "temp_kf": 0,
-          "dew_point": 66.4
+          "dew_point": 67.48
         },
         "weather": [
           {
@@ -314,14 +277,14 @@
           "all": 100
         },
         "wind": {
-          "speed": 6.69,
-          "deg": 79,
-          "gust": 7.2
+          "speed": 5.91,
+          "deg": 78,
+          "gust": 6.96
         },
         "visibility": 10000,
-        "pop": 0.44,
+        "pop": 0.92,
         "rain": {
-          "3h": 0.13
+          "3h": 2.56
         },
         "sys": {
           "pod": "n"
@@ -331,16 +294,16 @@
       {
         "dt": 1793545200,
         "main": {
-          "temp": 63.41,
-          "feels_like": 63.5,
-          "temp_min": 63.41,
-          "temp_max": 63.41,
-          "pressure": 1015,
-          "sea_level": 1015,
-          "grnd_level": 900,
-          "humidity": 86,
+          "temp": 62.78,
+          "feels_like": 63,
+          "temp_min": 62.78,
+          "temp_max": 62.78,
+          "pressure": 1014,
+          "sea_level": 1014,
+          "grnd_level": 899,
+          "humidity": 90,
           "temp_kf": 0,
-          "dew_point": 66.09
+          "dew_point": 66.83
         },
         "weather": [
           {
@@ -354,14 +317,14 @@
           "all": 100
         },
         "wind": {
-          "speed": 9.69,
-          "deg": 35,
-          "gust": 10.96
+          "speed": 6.71,
+          "deg": 52,
+          "gust": 7.63
         },
-        "visibility": 10000,
-        "pop": 0.36,
+        "visibility": 3464,
+        "pop": 0.8,
         "rain": {
-          "3h": 0.31
+          "3h": 1.19
         },
         "sys": {
           "pod": "n"
@@ -371,16 +334,16 @@
       {
         "dt": 1793556000,
         "main": {
-          "temp": 64.85,
-          "feels_like": 64.71,
-          "temp_min": 64.85,
-          "temp_max": 64.85,
-          "pressure": 1017,
-          "sea_level": 1017,
-          "grnd_level": 902,
-          "humidity": 78,
+          "temp": 64.45,
+          "feels_like": 64.4,
+          "temp_min": 64.45,
+          "temp_max": 64.45,
+          "pressure": 1016,
+          "sea_level": 1016,
+          "grnd_level": 901,
+          "humidity": 81,
           "temp_kf": 0,
-          "dew_point": 64.65
+          "dew_point": 65.25
         },
         "weather": [
           {
@@ -394,14 +357,14 @@
           "all": 100
         },
         "wind": {
-          "speed": 8.05,
-          "deg": 53,
-          "gust": 9.46
+          "speed": 8.32,
+          "deg": 60,
+          "gust": 9.42
         },
         "visibility": 10000,
-        "pop": 0.44,
+        "pop": 0.76,
         "rain": {
-          "3h": 0.19
+          "3h": 1.81
         },
         "sys": {
           "pod": "d"
@@ -411,610 +374,16 @@
       {
         "dt": 1793566800,
         "main": {
-          "temp": 65.7,
-          "feels_like": 65.59,
-          "temp_min": 65.7,
-          "temp_max": 65.7,
+          "temp": 65.3,
+          "feels_like": 65.19,
+          "temp_min": 65.3,
+          "temp_max": 65.3,
           "pressure": 1018,
           "sea_level": 1018,
           "grnd_level": 903,
-          "humidity": 77,
-          "temp_kf": 0,
-          "dew_point": 65.21
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10d"
-          }
-        ],
-        "clouds": {
-          "all": 77
-        },
-        "wind": {
-          "speed": 11.48,
-          "deg": 54,
-          "gust": 12.35
-        },
-        "visibility": 10000,
-        "pop": 0.28,
-        "rain": {
-          "3h": 0.31
-        },
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-11-01 21:00:00"
-      },
-      {
-        "dt": 1793577600,
-        "main": {
-          "temp": 64.11,
-          "feels_like": 64.02,
-          "temp_min": 64.11,
-          "temp_max": 64.11,
-          "pressure": 1016,
-          "sea_level": 1016,
-          "grnd_level": 901,
-          "humidity": 81,
-          "temp_kf": 0,
-          "dew_point": 65.16
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10d"
-          }
-        ],
-        "clouds": {
-          "all": 87
-        },
-        "wind": {
-          "speed": 12.33,
-          "deg": 59,
-          "gust": 13.69
-        },
-        "visibility": 10000,
-        "pop": 0.32,
-        "rain": {
-          "3h": 1.31
-        },
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-11-02 00:00:00"
-      },
-      {
-        "dt": 1793588400,
-        "main": {
-          "temp": 64.11,
-          "feels_like": 63.99,
-          "temp_min": 64.11,
-          "temp_max": 64.11,
-          "pressure": 1017,
-          "sea_level": 1017,
-          "grnd_level": 902,
-          "humidity": 80,
-          "temp_kf": 0,
-          "dew_point": 64.44
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10d"
-          }
-        ],
-        "clouds": {
-          "all": 100
-        },
-        "wind": {
-          "speed": 12.64,
-          "deg": 54,
-          "gust": 13.87
-        },
-        "visibility": 10000,
-        "pop": 0.36,
-        "rain": {
-          "3h": 0.56
-        },
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-11-02 03:00:00"
-      },
-      {
-        "dt": 1793599200,
-        "main": {
-          "temp": 62.55,
-          "feels_like": 62.46,
-          "temp_min": 62.55,
-          "temp_max": 62.55,
-          "pressure": 1019,
-          "sea_level": 1019,
-          "grnd_level": 903,
-          "humidity": 84,
-          "temp_kf": 0,
-          "dew_point": 64.54
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 100
-        },
-        "wind": {
-          "speed": 15.37,
-          "deg": 60,
-          "gust": 18.14
-        },
-        "visibility": 10000,
-        "pop": 0.6,
-        "rain": {
-          "3h": 1.56
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-02 06:00:00"
-      },
-      {
-        "dt": 1793610000,
-        "main": {
-          "temp": 62.19,
-          "feels_like": 61.92,
-          "temp_min": 62.19,
-          "temp_max": 62.19,
-          "pressure": 1019,
-          "sea_level": 1019,
-          "grnd_level": 903,
-          "humidity": 81,
-          "temp_kf": 0,
-          "dew_point": 62.92
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 100
-        },
-        "wind": {
-          "speed": 14.45,
-          "deg": 63,
-          "gust": 16.33
-        },
-        "visibility": 10000,
-        "pop": 0.32,
-        "rain": {
-          "3h": 1.13
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-02 09:00:00"
-      },
-      {
-        "dt": 1793620800,
-        "main": {
-          "temp": 61.66,
-          "feels_like": 61.11,
-          "temp_min": 61.66,
-          "temp_max": 61.66,
-          "pressure": 1019,
-          "sea_level": 1019,
-          "grnd_level": 903,
-          "humidity": 76,
-          "temp_kf": 0,
-          "dew_point": 60.71
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 100
-        },
-        "wind": {
-          "speed": 14.36,
-          "deg": 60,
-          "gust": 15.43
-        },
-        "visibility": 10000,
-        "pop": 0.32,
-        "rain": {
-          "3h": 0.69
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-02 12:00:00"
-      },
-      {
-        "dt": 1793631600,
-        "main": {
-          "temp": 61.61,
-          "feels_like": 60.48,
-          "temp_min": 61.61,
-          "temp_max": 61.61,
-          "pressure": 1019,
-          "sea_level": 1019,
-          "grnd_level": 903,
-          "humidity": 64,
-          "temp_kf": 0,
-          "dew_point": 55.92
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 100
-        },
-        "wind": {
-          "speed": 12.19,
-          "deg": 72,
-          "gust": 13.47
-        },
-        "visibility": 10000,
-        "pop": 0.2,
-        "rain": {
-          "3h": 0.13
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-02 15:00:00"
-      },
-      {
-        "dt": 1793642400,
-        "main": {
-          "temp": 61.09,
-          "feels_like": 60.04,
-          "temp_min": 61.09,
-          "temp_max": 61.09,
-          "pressure": 1021,
-          "sea_level": 1021,
-          "grnd_level": 904,
-          "humidity": 67,
-          "temp_kf": 0,
-          "dew_point": 56.75
-        },
-        "weather": [
-          {
-            "id": 804,
-            "main": "Clouds",
-            "description": "overcast clouds",
-            "icon": "04d"
-          }
-        ],
-        "clouds": {
-          "all": 98
-        },
-        "wind": {
-          "speed": 13.98,
-          "deg": 77,
-          "gust": 15.9
-        },
-        "visibility": 10000,
-        "pop": 0,
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-11-02 18:00:00"
-      },
-      {
-        "dt": 1793653200,
-        "main": {
-          "temp": 61.81,
-          "feels_like": 60.93,
-          "temp_min": 61.81,
-          "temp_max": 61.81,
-          "pressure": 1021,
-          "sea_level": 1021,
-          "grnd_level": 904,
-          "humidity": 69,
-          "temp_kf": 0,
-          "dew_point": 58.19
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10d"
-          }
-        ],
-        "clouds": {
-          "all": 99
-        },
-        "wind": {
-          "speed": 13.87,
-          "deg": 87,
-          "gust": 16.33
-        },
-        "visibility": 10000,
-        "pop": 0.2,
-        "rain": {
-          "3h": 0.19
-        },
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-11-02 21:00:00"
-      },
-      {
-        "dt": 1793664000,
-        "main": {
-          "temp": 61.88,
-          "feels_like": 61.02,
-          "temp_min": 61.88,
-          "temp_max": 61.88,
-          "pressure": 1019,
-          "sea_level": 1019,
-          "grnd_level": 903,
-          "humidity": 69,
-          "temp_kf": 0,
-          "dew_point": 58.32
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10d"
-          }
-        ],
-        "clouds": {
-          "all": 99
-        },
-        "wind": {
-          "speed": 13.15,
-          "deg": 80,
-          "gust": 15.46
-        },
-        "visibility": 10000,
-        "pop": 0.2,
-        "rain": {
-          "3h": 0.13
-        },
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-11-03 00:00:00"
-      },
-      {
-        "dt": 1793674800,
-        "main": {
-          "temp": 62.6,
-          "feels_like": 61.61,
-          "temp_min": 62.6,
-          "temp_max": 62.6,
-          "pressure": 1019,
-          "sea_level": 1019,
-          "grnd_level": 903,
-          "humidity": 65,
-          "temp_kf": 0,
-          "dew_point": 57.49
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10d"
-          }
-        ],
-        "clouds": {
-          "all": 100
-        },
-        "wind": {
-          "speed": 12.55,
-          "deg": 83,
-          "gust": 16.15
-        },
-        "visibility": 10000,
-        "pop": 0.2,
-        "rain": {
-          "3h": 0.13
-        },
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-11-03 03:00:00"
-      },
-      {
-        "dt": 1793685600,
-        "main": {
-          "temp": 61.86,
-          "feels_like": 60.94,
-          "temp_min": 61.86,
-          "temp_max": 61.86,
-          "pressure": 1021,
-          "sea_level": 1021,
-          "grnd_level": 905,
-          "humidity": 68,
-          "temp_kf": 0,
-          "dew_point": 57.72
-        },
-        "weather": [
-          {
-            "id": 804,
-            "main": "Clouds",
-            "description": "overcast clouds",
-            "icon": "04n"
-          }
-        ],
-        "clouds": {
-          "all": 86
-        },
-        "wind": {
-          "speed": 13.15,
-          "deg": 83,
-          "gust": 16.37
-        },
-        "visibility": 10000,
-        "pop": 0,
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-03 06:00:00"
-      },
-      {
-        "dt": 1793696400,
-        "main": {
-          "temp": 62.04,
-          "feels_like": 61.61,
-          "temp_min": 62.04,
-          "temp_max": 62.04,
-          "pressure": 1021,
-          "sea_level": 1021,
-          "grnd_level": 905,
           "humidity": 78,
           "temp_kf": 0,
-          "dew_point": 61.88
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 98
-        },
-        "wind": {
-          "speed": 12.91,
-          "deg": 75,
-          "gust": 15.9
-        },
-        "visibility": 10000,
-        "pop": 0.36,
-        "rain": {
-          "3h": 0.25
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-03 09:00:00"
-      },
-      {
-        "dt": 1793707200,
-        "main": {
-          "temp": 62.4,
-          "feels_like": 62.1,
-          "temp_min": 62.4,
-          "temp_max": 62.4,
-          "pressure": 1020,
-          "sea_level": 1020,
-          "grnd_level": 904,
-          "humidity": 80,
-          "temp_kf": 0,
-          "dew_point": 62.8
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 94
-        },
-        "wind": {
-          "speed": 14.32,
-          "deg": 83,
-          "gust": 17.49
-        },
-        "visibility": 10000,
-        "pop": 0.48,
-        "rain": {
-          "3h": 0.69
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-03 12:00:00"
-      },
-      {
-        "dt": 1793718000,
-        "main": {
-          "temp": 61.25,
-          "feels_like": 61.02,
-          "temp_min": 61.25,
-          "temp_max": 61.25,
-          "pressure": 1019,
-          "sea_level": 1019,
-          "grnd_level": 903,
-          "humidity": 84,
-          "temp_kf": 0,
-          "dew_point": 63.36
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 91
-        },
-        "wind": {
-          "speed": 13.53,
-          "deg": 84,
-          "gust": 16.82
-        },
-        "visibility": 10000,
-        "pop": 0.68,
-        "rain": {
-          "3h": 0.94
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-03 15:00:00"
-      },
-      {
-        "dt": 1793728800,
-        "main": {
-          "temp": 62.4,
-          "feels_like": 62.06,
-          "temp_min": 62.4,
-          "temp_max": 62.4,
-          "pressure": 1021,
-          "sea_level": 1021,
-          "grnd_level": 905,
-          "humidity": 79,
-          "temp_kf": 0,
-          "dew_point": 62.38
+          "dew_point": 65.26
         },
         "weather": [
           {
@@ -1028,33 +397,33 @@
           "all": 95
         },
         "wind": {
-          "speed": 16.08,
-          "deg": 87,
-          "gust": 19.51
+          "speed": 11.63,
+          "deg": 51,
+          "gust": 12.77
         },
         "visibility": 10000,
-        "pop": 0.6,
+        "pop": 0.28,
         "rain": {
-          "3h": 0.94
+          "3h": 0.38
         },
         "sys": {
           "pod": "d"
         },
-        "dt_txt": "2026-11-03 18:00:00"
+        "dt_txt": "2026-11-01 21:00:00"
       },
       {
-        "dt": 1793739600,
+        "dt": 1793577600,
         "main": {
-          "temp": 63.19,
-          "feels_like": 62.83,
-          "temp_min": 63.19,
-          "temp_max": 63.19,
-          "pressure": 1020,
-          "sea_level": 1020,
-          "grnd_level": 905,
-          "humidity": 77,
+          "temp": 65.37,
+          "feels_like": 65.14,
+          "temp_min": 65.37,
+          "temp_max": 65.37,
+          "pressure": 1016,
+          "sea_level": 1016,
+          "grnd_level": 901,
+          "humidity": 75,
           "temp_kf": 0,
-          "dew_point": 62.82
+          "dew_point": 64
         },
         "weather": [
           {
@@ -1065,12 +434,12 @@
           }
         ],
         "clouds": {
-          "all": 100
+          "all": 95
         },
         "wind": {
-          "speed": 15.59,
-          "deg": 89,
-          "gust": 17.9
+          "speed": 11.16,
+          "deg": 60,
+          "gust": 11.86
         },
         "visibility": 10000,
         "pop": 0.28,
@@ -1080,21 +449,21 @@
         "sys": {
           "pod": "d"
         },
-        "dt_txt": "2026-11-03 21:00:00"
+        "dt_txt": "2026-11-02 00:00:00"
       },
       {
-        "dt": 1793750400,
+        "dt": 1793588400,
         "main": {
-          "temp": 63.19,
-          "feels_like": 62.89,
-          "temp_min": 63.19,
-          "temp_max": 63.19,
-          "pressure": 1018,
-          "sea_level": 1018,
-          "grnd_level": 903,
+          "temp": 64.4,
+          "feels_like": 64.2,
+          "temp_min": 64.4,
+          "temp_max": 64.4,
+          "pressure": 1016,
+          "sea_level": 1016,
+          "grnd_level": 901,
           "humidity": 78,
           "temp_kf": 0,
-          "dew_point": 63.18
+          "dew_point": 64.29
         },
         "weather": [
           {
@@ -1105,396 +474,36 @@
           }
         ],
         "clouds": {
-          "all": 97
+          "all": 77
         },
         "wind": {
-          "speed": 14.85,
-          "deg": 88,
-          "gust": 17.22
+          "speed": 11.52,
+          "deg": 59,
+          "gust": 13.02
         },
         "visibility": 10000,
-        "pop": 0.28,
-        "rain": {
-          "3h": 0.75
-        },
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-11-04 00:00:00"
-      },
-      {
-        "dt": 1793761200,
-        "main": {
-          "temp": 63.28,
-          "feels_like": 62.98,
-          "temp_min": 63.28,
-          "temp_max": 63.28,
-          "pressure": 1019,
-          "sea_level": 1019,
-          "grnd_level": 904,
-          "humidity": 78,
-          "temp_kf": 0,
-          "dew_point": 63.12
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10d"
-          }
-        ],
-        "clouds": {
-          "all": 99
-        },
-        "wind": {
-          "speed": 13.42,
-          "deg": 86,
-          "gust": 15.66
-        },
-        "visibility": 10000,
-        "pop": 0.32,
-        "rain": {
-          "3h": 0.81
-        },
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-11-04 03:00:00"
-      },
-      {
-        "dt": 1793772000,
-        "main": {
-          "temp": 62.42,
-          "feels_like": 62.17,
-          "temp_min": 62.42,
-          "temp_max": 62.42,
-          "pressure": 1021,
-          "sea_level": 1021,
-          "grnd_level": 905,
-          "humidity": 81,
-          "temp_kf": 0,
-          "dew_point": 63.27
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 97
-        },
-        "wind": {
-          "speed": 14.99,
-          "deg": 84,
-          "gust": 17.45
-        },
-        "visibility": 8828,
         "pop": 0.36,
         "rain": {
-          "3h": 1.44
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-04 06:00:00"
-      },
-      {
-        "dt": 1793782800,
-        "main": {
-          "temp": 62.38,
-          "feels_like": 62.17,
-          "temp_min": 62.38,
-          "temp_max": 62.38,
-          "pressure": 1021,
-          "sea_level": 1021,
-          "grnd_level": 905,
-          "humidity": 82,
-          "temp_kf": 0,
-          "dew_point": 63.55
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 99
-        },
-        "wind": {
-          "speed": 13.98,
-          "deg": 94,
-          "gust": 17
-        },
-        "visibility": 10000,
-        "pop": 0.44,
-        "rain": {
-          "3h": 0.94
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-04 09:00:00"
-      },
-      {
-        "dt": 1793793600,
-        "main": {
-          "temp": 62.35,
-          "feels_like": 62.19,
-          "temp_min": 62.35,
-          "temp_max": 62.35,
-          "pressure": 1019,
-          "sea_level": 1019,
-          "grnd_level": 904,
-          "humidity": 83,
-          "temp_kf": 0,
-          "dew_point": 63.86
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 98
-        },
-        "wind": {
-          "speed": 14.03,
-          "deg": 90,
-          "gust": 17
-        },
-        "visibility": 10000,
-        "pop": 0.64,
-        "rain": {
-          "3h": 1.69
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-04 12:00:00"
-      },
-      {
-        "dt": 1793804400,
-        "main": {
-          "temp": 62.29,
-          "feels_like": 62.13,
-          "temp_min": 62.29,
-          "temp_max": 62.29,
-          "pressure": 1019,
-          "sea_level": 1019,
-          "grnd_level": 903,
-          "humidity": 83,
-          "temp_kf": 0,
-          "dew_point": 64.13
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 98
-        },
-        "wind": {
-          "speed": 14.97,
-          "deg": 93,
-          "gust": 17.94
-        },
-        "visibility": 9837,
-        "pop": 0.6,
-        "rain": {
-          "3h": 2
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-04 15:00:00"
-      },
-      {
-        "dt": 1793815200,
-        "main": {
-          "temp": 62.44,
-          "feels_like": 62.33,
-          "temp_min": 62.44,
-          "temp_max": 62.44,
-          "pressure": 1020,
-          "sea_level": 1020,
-          "grnd_level": 905,
-          "humidity": 84,
-          "temp_kf": 0,
-          "dew_point": 64.49
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10d"
-          }
-        ],
-        "clouds": {
-          "all": 99
-        },
-        "wind": {
-          "speed": 14.88,
-          "deg": 89,
-          "gust": 18.59
-        },
-        "visibility": 8115,
-        "pop": 0.64,
-        "rain": {
-          "3h": 1.69
+          "3h": 0.38
         },
         "sys": {
           "pod": "d"
         },
-        "dt_txt": "2026-11-04 18:00:00"
+        "dt_txt": "2026-11-02 03:00:00"
       },
       {
-        "dt": 1793826000,
+        "dt": 1793599200,
         "main": {
-          "temp": 63.41,
-          "feels_like": 63.3,
-          "temp_min": 63.41,
-          "temp_max": 63.41,
-          "pressure": 1021,
-          "sea_level": 1021,
-          "grnd_level": 905,
-          "humidity": 82,
-          "temp_kf": 0,
-          "dew_point": 64.47
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10d"
-          }
-        ],
-        "clouds": {
-          "all": 97
-        },
-        "wind": {
-          "speed": 15.52,
-          "deg": 84,
-          "gust": 18.79
-        },
-        "visibility": 10000,
-        "pop": 0.8,
-        "rain": {
-          "3h": 2
-        },
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-11-04 21:00:00"
-      },
-      {
-        "dt": 1793836800,
-        "main": {
-          "temp": 64.06,
-          "feels_like": 63.88,
-          "temp_min": 64.06,
-          "temp_max": 64.06,
-          "pressure": 1019,
-          "sea_level": 1019,
-          "grnd_level": 903,
-          "humidity": 79,
-          "temp_kf": 0,
-          "dew_point": 64.31
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10d"
-          }
-        ],
-        "clouds": {
-          "all": 97
-        },
-        "wind": {
-          "speed": 14.74,
-          "deg": 78,
-          "gust": 17.69
-        },
-        "visibility": 10000,
-        "pop": 0.64,
-        "rain": {
-          "3h": 1.38
-        },
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-11-05 00:00:00"
-      },
-      {
-        "dt": 1793847600,
-        "main": {
-          "temp": 63.46,
-          "feels_like": 63.36,
-          "temp_min": 63.46,
-          "temp_max": 63.46,
+          "temp": 63.18,
+          "feels_like": 63.05,
+          "temp_min": 63.18,
+          "temp_max": 63.18,
           "pressure": 1019,
           "sea_level": 1019,
           "grnd_level": 903,
           "humidity": 82,
           "temp_kf": 0,
-          "dew_point": 64.85
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10d"
-          }
-        ],
-        "clouds": {
-          "all": 89
-        },
-        "wind": {
-          "speed": 15.19,
-          "deg": 79,
-          "gust": 18.16
-        },
-        "visibility": 6243,
-        "pop": 0.44,
-        "rain": {
-          "3h": 1.75
-        },
-        "sys": {
-          "pod": "d"
-        },
-        "dt_txt": "2026-11-05 03:00:00"
-      },
-      {
-        "dt": 1793858400,
-        "main": {
-          "temp": 63.54,
-          "feels_like": 63.45,
-          "temp_min": 63.54,
-          "temp_max": 63.54,
-          "pressure": 1020,
-          "sea_level": 1020,
-          "grnd_level": 904,
-          "humidity": 82,
-          "temp_kf": 0,
-          "dew_point": 64.81
+          "dew_point": 64.4
         },
         "weather": [
           {
@@ -1505,116 +514,36 @@
           }
         ],
         "clouds": {
-          "all": 85
+          "all": 84
         },
         "wind": {
-          "speed": 14.34,
-          "deg": 89,
-          "gust": 17.27
+          "speed": 15.37,
+          "deg": 59,
+          "gust": 18.37
         },
         "visibility": 10000,
-        "pop": 0.52,
+        "pop": 0.48,
         "rain": {
-          "3h": 1.94
+          "3h": 1.19
         },
         "sys": {
           "pod": "n"
         },
-        "dt_txt": "2026-11-05 06:00:00"
+        "dt_txt": "2026-11-02 06:00:00"
       },
       {
-        "dt": 1793869200,
+        "dt": 1793610000,
         "main": {
-          "temp": 63.03,
-          "feels_like": 63.03,
-          "temp_min": 63.03,
-          "temp_max": 63.03,
-          "pressure": 1020,
-          "sea_level": 1020,
-          "grnd_level": 904,
-          "humidity": 85,
-          "temp_kf": 0,
-          "dew_point": 65.23
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 91
-        },
-        "wind": {
-          "speed": 13,
-          "deg": 105,
-          "gust": 16.8
-        },
-        "visibility": 10000,
-        "pop": 0.6,
-        "rain": {
-          "3h": 1.5
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-05 09:00:00"
-      },
-      {
-        "dt": 1793880000,
-        "main": {
-          "temp": 63.23,
-          "feels_like": 63.01,
-          "temp_min": 63.23,
-          "temp_max": 63.23,
+          "temp": 61.99,
+          "feels_like": 61.7,
+          "temp_min": 61.99,
+          "temp_max": 61.99,
           "pressure": 1019,
           "sea_level": 1019,
           "grnd_level": 903,
-          "humidity": 80,
+          "humidity": 81,
           "temp_kf": 0,
-          "dew_point": 63.72
-        },
-        "weather": [
-          {
-            "id": 500,
-            "main": "Rain",
-            "description": "light rain",
-            "icon": "10n"
-          }
-        ],
-        "clouds": {
-          "all": 85
-        },
-        "wind": {
-          "speed": 13.82,
-          "deg": 100,
-          "gust": 17.92
-        },
-        "visibility": 10000,
-        "pop": 0.56,
-        "rain": {
-          "3h": 1.06
-        },
-        "sys": {
-          "pod": "n"
-        },
-        "dt_txt": "2026-11-05 12:00:00"
-      },
-      {
-        "dt": 1793890800,
-        "main": {
-          "temp": 63.23,
-          "feels_like": 62.82,
-          "temp_min": 63.23,
-          "temp_max": 63.23,
-          "pressure": 1018,
-          "sea_level": 1018,
-          "grnd_level": 903,
-          "humidity": 76,
-          "temp_kf": 0,
-          "dew_point": 62.1
+          "dew_point": 63
         },
         "weather": [
           {
@@ -1628,19 +557,1096 @@
           "all": 100
         },
         "wind": {
-          "speed": 13.76,
-          "deg": 97,
-          "gust": 17
+          "speed": 15.61,
+          "deg": 57,
+          "gust": 17.69
+        },
+        "visibility": 9516,
+        "pop": 0.52,
+        "rain": {
+          "3h": 1.5
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-02 09:00:00"
+      },
+      {
+        "dt": 1793620800,
+        "main": {
+          "temp": 62.29,
+          "feels_like": 61.75,
+          "temp_min": 62.29,
+          "temp_max": 62.29,
+          "pressure": 1019,
+          "sea_level": 1019,
+          "grnd_level": 903,
+          "humidity": 75,
+          "temp_kf": 0,
+          "dew_point": 60.84
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 98
+        },
+        "wind": {
+          "speed": 14.25,
+          "deg": 64,
+          "gust": 15.46
+        },
+        "visibility": 10000,
+        "pop": 0.36,
+        "rain": {
+          "3h": 0.75
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-02 12:00:00"
+      },
+      {
+        "dt": 1793631600,
+        "main": {
+          "temp": 61.32,
+          "feels_like": 60.49,
+          "temp_min": 61.32,
+          "temp_max": 61.32,
+          "pressure": 1019,
+          "sea_level": 1019,
+          "grnd_level": 903,
+          "humidity": 71,
+          "temp_kf": 0,
+          "dew_point": 58.6
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 100
+        },
+        "wind": {
+          "speed": 13.91,
+          "deg": 67,
+          "gust": 14.81
         },
         "visibility": 10000,
         "pop": 0.2,
+        "rain": {
+          "3h": 0.19
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-02 15:00:00"
+      },
+      {
+        "dt": 1793642400,
+        "main": {
+          "temp": 61.29,
+          "feels_like": 60.4,
+          "temp_min": 61.29,
+          "temp_max": 61.29,
+          "pressure": 1020,
+          "sea_level": 1020,
+          "grnd_level": 904,
+          "humidity": 70,
+          "temp_kf": 0,
+          "dew_point": 58.23
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": {
+          "all": 99
+        },
+        "wind": {
+          "speed": 13.02,
+          "deg": 84,
+          "gust": 14.81
+        },
+        "visibility": 10000,
+        "pop": 0.2,
+        "rain": {
+          "3h": 0.13
+        },
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-02 18:00:00"
+      },
+      {
+        "dt": 1793653200,
+        "main": {
+          "temp": 63.86,
+          "feels_like": 63,
+          "temp_min": 63.86,
+          "temp_max": 63.86,
+          "pressure": 1020,
+          "sea_level": 1020,
+          "grnd_level": 904,
+          "humidity": 65,
+          "temp_kf": 0,
+          "dew_point": 58.55
+        },
+        "weather": [
+          {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04d"
+          }
+        ],
+        "clouds": {
+          "all": 99
+        },
+        "wind": {
+          "speed": 14,
+          "deg": 85,
+          "gust": 16.82
+        },
+        "visibility": 10000,
+        "pop": 0,
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-02 21:00:00"
+      },
+      {
+        "dt": 1793664000,
+        "main": {
+          "temp": 63.7,
+          "feels_like": 63.1,
+          "temp_min": 63.7,
+          "temp_max": 63.7,
+          "pressure": 1018,
+          "sea_level": 1018,
+          "grnd_level": 903,
+          "humidity": 71,
+          "temp_kf": 0,
+          "dew_point": 60.76
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": {
+          "all": 99
+        },
+        "wind": {
+          "speed": 13.91,
+          "deg": 75,
+          "gust": 15.46
+        },
+        "visibility": 10000,
+        "pop": 0.2,
+        "rain": {
+          "3h": 0.19
+        },
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-03 00:00:00"
+      },
+      {
+        "dt": 1793674800,
+        "main": {
+          "temp": 63.01,
+          "feels_like": 62.44,
+          "temp_min": 63.01,
+          "temp_max": 63.01,
+          "pressure": 1018,
+          "sea_level": 1018,
+          "grnd_level": 903,
+          "humidity": 73,
+          "temp_kf": 0,
+          "dew_point": 60.96
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": {
+          "all": 88
+        },
+        "wind": {
+          "speed": 13.31,
+          "deg": 77,
+          "gust": 15.66
+        },
+        "visibility": 10000,
+        "pop": 0.28,
+        "rain": {
+          "3h": 0.38
+        },
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-03 03:00:00"
+      },
+      {
+        "dt": 1793685600,
+        "main": {
+          "temp": 62.51,
+          "feels_like": 62.08,
+          "temp_min": 62.51,
+          "temp_max": 62.51,
+          "pressure": 1020,
+          "sea_level": 1020,
+          "grnd_level": 904,
+          "humidity": 77,
+          "temp_kf": 0,
+          "dew_point": 61.99
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 94
+        },
+        "wind": {
+          "speed": 14.34,
+          "deg": 74,
+          "gust": 16.58
+        },
+        "visibility": 10000,
+        "pop": 0.24,
+        "rain": {
+          "3h": 0.5
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-03 06:00:00"
+      },
+      {
+        "dt": 1793696400,
+        "main": {
+          "temp": 62.37,
+          "feels_like": 62.02,
+          "temp_min": 62.37,
+          "temp_max": 62.37,
+          "pressure": 1021,
+          "sea_level": 1021,
+          "grnd_level": 905,
+          "humidity": 79,
+          "temp_kf": 0,
+          "dew_point": 62.71
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 94
+        },
+        "wind": {
+          "speed": 14.99,
+          "deg": 74,
+          "gust": 17.27
+        },
+        "visibility": 10000,
+        "pop": 0.44,
+        "rain": {
+          "3h": 0.69
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-03 09:00:00"
+      },
+      {
+        "dt": 1793707200,
+        "main": {
+          "temp": 61.72,
+          "feels_like": 61.39,
+          "temp_min": 61.72,
+          "temp_max": 61.72,
+          "pressure": 1020,
+          "sea_level": 1020,
+          "grnd_level": 904,
+          "humidity": 81,
+          "temp_kf": 0,
+          "dew_point": 62.51
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 97
+        },
+        "wind": {
+          "speed": 15.05,
+          "deg": 77,
+          "gust": 17
+        },
+        "visibility": 10000,
+        "pop": 0.6,
+        "rain": {
+          "3h": 0.81
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-03 12:00:00"
+      },
+      {
+        "dt": 1793718000,
+        "main": {
+          "temp": 61.77,
+          "feels_like": 61.45,
+          "temp_min": 61.77,
+          "temp_max": 61.77,
+          "pressure": 1019,
+          "sea_level": 1019,
+          "grnd_level": 903,
+          "humidity": 81,
+          "temp_kf": 0,
+          "dew_point": 62.78
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 100
+        },
+        "wind": {
+          "speed": 15.43,
+          "deg": 79,
+          "gust": 18.12
+        },
+        "visibility": 10000,
+        "pop": 0.56,
+        "rain": {
+          "3h": 1.25
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-03 15:00:00"
+      },
+      {
+        "dt": 1793728800,
+        "main": {
+          "temp": 61.95,
+          "feels_like": 61.61,
+          "temp_min": 61.95,
+          "temp_max": 61.95,
+          "pressure": 1020,
+          "sea_level": 1020,
+          "grnd_level": 904,
+          "humidity": 80,
+          "temp_kf": 0,
+          "dew_point": 62.55
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": {
+          "all": 100
+        },
+        "wind": {
+          "speed": 14.83,
+          "deg": 86,
+          "gust": 17.74
+        },
+        "visibility": 10000,
+        "pop": 0.52,
+        "rain": {
+          "3h": 0.69
+        },
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-03 18:00:00"
+      },
+      {
+        "dt": 1793739600,
+        "main": {
+          "temp": 63.03,
+          "feels_like": 62.65,
+          "temp_min": 63.03,
+          "temp_max": 63.03,
+          "pressure": 1020,
+          "sea_level": 1020,
+          "grnd_level": 904,
+          "humidity": 77,
+          "temp_kf": 0,
+          "dew_point": 62.47
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": {
+          "all": 100
+        },
+        "wind": {
+          "speed": 14.12,
+          "deg": 86,
+          "gust": 16.11
+        },
+        "visibility": 10000,
+        "pop": 0.28,
+        "rain": {
+          "3h": 0.56
+        },
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-03 21:00:00"
+      },
+      {
+        "dt": 1793750400,
+        "main": {
+          "temp": 63.18,
+          "feels_like": 62.82,
+          "temp_min": 63.18,
+          "temp_max": 63.18,
+          "pressure": 1018,
+          "sea_level": 1018,
+          "grnd_level": 903,
+          "humidity": 77,
+          "temp_kf": 0,
+          "dew_point": 62.69
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": {
+          "all": 100
+        },
+        "wind": {
+          "speed": 13.22,
+          "deg": 87,
+          "gust": 15.88
+        },
+        "visibility": 10000,
+        "pop": 0.28,
+        "rain": {
+          "3h": 0.5
+        },
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-04 00:00:00"
+      },
+      {
+        "dt": 1793761200,
+        "main": {
+          "temp": 62.53,
+          "feels_like": 62.1,
+          "temp_min": 62.53,
+          "temp_max": 62.53,
+          "pressure": 1019,
+          "sea_level": 1019,
+          "grnd_level": 903,
+          "humidity": 77,
+          "temp_kf": 0,
+          "dew_point": 61.86
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": {
+          "all": 100
+        },
+        "wind": {
+          "speed": 11.92,
+          "deg": 83,
+          "gust": 13.67
+        },
+        "visibility": 10000,
+        "pop": 0.32,
+        "rain": {
+          "3h": 0.5
+        },
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-04 03:00:00"
+      },
+      {
+        "dt": 1793772000,
+        "main": {
+          "temp": 62.4,
+          "feels_like": 61.86,
+          "temp_min": 62.4,
+          "temp_max": 62.4,
+          "pressure": 1021,
+          "sea_level": 1021,
+          "grnd_level": 905,
+          "humidity": 75,
+          "temp_kf": 0,
+          "dew_point": 61
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 100
+        },
+        "wind": {
+          "speed": 12.64,
+          "deg": 82,
+          "gust": 14.56
+        },
+        "visibility": 10000,
+        "pop": 0.28,
         "rain": {
           "3h": 0.25
         },
         "sys": {
           "pod": "n"
         },
+        "dt_txt": "2026-11-04 06:00:00"
+      },
+      {
+        "dt": 1793782800,
+        "main": {
+          "temp": 61.99,
+          "feels_like": 61.5,
+          "temp_min": 61.99,
+          "temp_max": 61.99,
+          "pressure": 1021,
+          "sea_level": 1021,
+          "grnd_level": 905,
+          "humidity": 77,
+          "temp_kf": 0,
+          "dew_point": 61.57
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 100
+        },
+        "wind": {
+          "speed": 10.71,
+          "deg": 85,
+          "gust": 12.55
+        },
+        "visibility": 10000,
+        "pop": 0.4,
+        "rain": {
+          "3h": 0.31
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-04 09:00:00"
+      },
+      {
+        "dt": 1793793600,
+        "main": {
+          "temp": 61.36,
+          "feels_like": 61.09,
+          "temp_min": 61.36,
+          "temp_max": 61.36,
+          "pressure": 1019,
+          "sea_level": 1019,
+          "grnd_level": 903,
+          "humidity": 83,
+          "temp_kf": 0,
+          "dew_point": 62.8
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 98
+        },
+        "wind": {
+          "speed": 11.07,
+          "deg": 93,
+          "gust": 13.04
+        },
+        "visibility": 10000,
+        "pop": 0.24,
+        "rain": {
+          "3h": 0.5
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-04 12:00:00"
+      },
+      {
+        "dt": 1793804400,
+        "main": {
+          "temp": 61.74,
+          "feels_like": 61.41,
+          "temp_min": 61.74,
+          "temp_max": 61.74,
+          "pressure": 1019,
+          "sea_level": 1019,
+          "grnd_level": 903,
+          "humidity": 81,
+          "temp_kf": 0,
+          "dew_point": 62.46
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 97
+        },
+        "wind": {
+          "speed": 11.52,
+          "deg": 82,
+          "gust": 13.22
+        },
+        "visibility": 10000,
+        "pop": 0.32,
+        "rain": {
+          "3h": 0.75
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-04 15:00:00"
+      },
+      {
+        "dt": 1793815200,
+        "main": {
+          "temp": 62.42,
+          "feels_like": 61.99,
+          "temp_min": 62.42,
+          "temp_max": 62.42,
+          "pressure": 1020,
+          "sea_level": 1020,
+          "grnd_level": 905,
+          "humidity": 77,
+          "temp_kf": 0,
+          "dew_point": 62.02
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": {
+          "all": 98
+        },
+        "wind": {
+          "speed": 12.24,
+          "deg": 74,
+          "gust": 13.47
+        },
+        "visibility": 10000,
+        "pop": 0.4,
+        "rain": {
+          "3h": 0.5
+        },
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-04 18:00:00"
+      },
+      {
+        "dt": 1793826000,
+        "main": {
+          "temp": 63.48,
+          "feels_like": 62.91,
+          "temp_min": 63.48,
+          "temp_max": 63.48,
+          "pressure": 1021,
+          "sea_level": 1021,
+          "grnd_level": 905,
+          "humidity": 72,
+          "temp_kf": 0,
+          "dew_point": 61.11
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": {
+          "all": 100
+        },
+        "wind": {
+          "speed": 11.21,
+          "deg": 82,
+          "gust": 12.77
+        },
+        "visibility": 10000,
+        "pop": 0.24,
+        "rain": {
+          "3h": 0.31
+        },
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-04 21:00:00"
+      },
+      {
+        "dt": 1793836800,
+        "main": {
+          "temp": 65.35,
+          "feels_like": 64.83,
+          "temp_min": 65.35,
+          "temp_max": 65.35,
+          "pressure": 1018,
+          "sea_level": 1018,
+          "grnd_level": 903,
+          "humidity": 69,
+          "temp_kf": 0,
+          "dew_point": 61.61
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": {
+          "all": 84
+        },
+        "wind": {
+          "speed": 11.1,
+          "deg": 80,
+          "gust": 14.09
+        },
+        "visibility": 10000,
+        "pop": 0.2,
+        "rain": {
+          "3h": 0.13
+        },
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-05 00:00:00"
+      },
+      {
+        "dt": 1793847600,
+        "main": {
+          "temp": 63.54,
+          "feels_like": 63.45,
+          "temp_min": 63.54,
+          "temp_max": 63.54,
+          "pressure": 1018,
+          "sea_level": 1018,
+          "grnd_level": 903,
+          "humidity": 82,
+          "temp_kf": 0,
+          "dew_point": 64.99
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": {
+          "all": 88
+        },
+        "wind": {
+          "speed": 12.86,
+          "deg": 79,
+          "gust": 15.66
+        },
+        "visibility": 10000,
+        "pop": 0.4,
+        "rain": {
+          "3h": 0.75
+        },
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-05 03:00:00"
+      },
+      {
+        "dt": 1793858400,
+        "main": {
+          "temp": 63.81,
+          "feels_like": 63.73,
+          "temp_min": 63.81,
+          "temp_max": 63.81,
+          "pressure": 1019,
+          "sea_level": 1019,
+          "grnd_level": 904,
+          "humidity": 82,
+          "temp_kf": 0,
+          "dew_point": 65.19
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 87
+        },
+        "wind": {
+          "speed": 14.83,
+          "deg": 92,
+          "gust": 18.61
+        },
+        "visibility": 10000,
+        "pop": 0.48,
+        "rain": {
+          "3h": 2.13
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-05 06:00:00"
+      },
+      {
+        "dt": 1793869200,
+        "main": {
+          "temp": 63.7,
+          "feels_like": 63.66,
+          "temp_min": 63.7,
+          "temp_max": 63.7,
+          "pressure": 1020,
+          "sea_level": 1020,
+          "grnd_level": 904,
+          "humidity": 83,
+          "temp_kf": 0,
+          "dew_point": 65.25
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 82
+        },
+        "wind": {
+          "speed": 15.21,
+          "deg": 97,
+          "gust": 18.37
+        },
+        "visibility": 7063,
+        "pop": 0.76,
+        "rain": {
+          "3h": 2.38
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-05 09:00:00"
+      },
+      {
+        "dt": 1793880000,
+        "main": {
+          "temp": 63.45,
+          "feels_like": 63.1,
+          "temp_min": 63.45,
+          "temp_max": 63.45,
+          "pressure": 1019,
+          "sea_level": 1019,
+          "grnd_level": 903,
+          "humidity": 77,
+          "temp_kf": 0,
+          "dew_point": 62.8
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 86
+        },
+        "wind": {
+          "speed": 15.03,
+          "deg": 96,
+          "gust": 17.9
+        },
+        "visibility": 10000,
+        "pop": 0.8,
+        "rain": {
+          "3h": 2.06
+        },
+        "sys": {
+          "pod": "n"
+        },
+        "dt_txt": "2026-11-05 12:00:00"
+      },
+      {
+        "dt": 1793890800,
+        "main": {
+          "temp": 62.67,
+          "feels_like": 62.26,
+          "temp_min": 62.67,
+          "temp_max": 62.67,
+          "pressure": 1018,
+          "sea_level": 1018,
+          "grnd_level": 903,
+          "humidity": 77,
+          "temp_kf": 0,
+          "dew_point": 62.22
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10n"
+          }
+        ],
+        "clouds": {
+          "all": 98
+        },
+        "wind": {
+          "speed": 13.09,
+          "deg": 98,
+          "gust": 16.78
+        },
+        "visibility": 10000,
+        "pop": 0.2,
+        "rain": {
+          "3h": 0.13
+        },
+        "sys": {
+          "pod": "n"
+        },
         "dt_txt": "2026-11-05 15:00:00"
+      },
+      {
+        "dt": 1793901600,
+        "main": {
+          "temp": 63.55,
+          "feels_like": 63.41,
+          "temp_min": 63.55,
+          "temp_max": 63.55,
+          "pressure": 1019,
+          "sea_level": 1019,
+          "grnd_level": 904,
+          "humidity": 81,
+          "temp_kf": 0,
+          "dew_point": 64.51
+        },
+        "weather": [
+          {
+            "id": 500,
+            "main": "Rain",
+            "description": "light rain",
+            "icon": "10d"
+          }
+        ],
+        "clouds": {
+          "all": 98
+        },
+        "wind": {
+          "speed": 15.35,
+          "deg": 91,
+          "gust": 20.13
+        },
+        "visibility": 10000,
+        "pop": 0.4,
+        "rain": {
+          "3h": 1.25
+        },
+        "sys": {
+          "pod": "d"
+        },
+        "dt_txt": "2026-11-05 18:00:00"
       }
     ],
     "city": {
